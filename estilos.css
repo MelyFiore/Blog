@@ -7,12 +7,13 @@ header {
 }
 
 .col-sm-3 img {
-	border-radius: 100px;
-	padding: auto 0px;
+    border-radius:50%;
+	padding-top: 10px;
 }
 
 .row ul {
-	font-family: 'Permanent Marker', cursive;	
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;	
 }
 
 .row ul a {
@@ -35,6 +36,7 @@ section {
 
 .row h3 {
 	font-family: 'Indie Flower', cursive;
+	font-style: bold;
 }
 
 .row p {
