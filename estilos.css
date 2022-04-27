@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap');
+
+
+header {
+	background: #807B74;
+	text-align: right;
+}
+
+.col-sm-3 img {
+	border-radius: 100px;
+	padding: auto 0px;
+}
+
+.row ul {
+	font-family: 'Permanent Marker', cursive;	
+}
+
+.row ul a {
+	color: #F3E8DC;
+}
+
+.cabeza li {
+	display: inline-block;
+	margin: 20px;
+}
+
+
+body {
+	background: #DDC3C1;
+}
+
+section {
+	text-align: center;
+}
+
+.row h3 {
+	font-family: 'Indie Flower', cursive;
+}
+
+.row p {
+	font-family: 'Indie Flower', cursive;
+	text-align: left;
+}
+
+.pie i {
+	display: inline-block;
+	margin: 10px;
+}
+
+.pie {
+	text-align: center;
+	background: #807B74;
+}
