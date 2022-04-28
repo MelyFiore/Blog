@@ -7,8 +7,7 @@ header {
 }
 
 .col-sm-3 img {
-    border-radius:50%;
-	padding-top: 10px;
+    border-radius:50%; 	
 }
 
 .row ul {
