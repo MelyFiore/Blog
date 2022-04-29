@@ -36,47 +36,25 @@
 	<section class="container">	
 
 	<?php $articulos = new WP_Query([
-			'showposts' => 3,
+			'showposts' => 5,
 			]);	
 	while ($articulos->have_posts()) {
-		$articulos->the_post();
+		$articulos->the_post(); ?>
 
-		the_title();
-		echo '<hr>';
-	} ?>
+
+
+
+
+				<?php the_post_thumbnail("medium"); ?>
+				<h3><?php the_title(); ?></h3>
+				<?php the_excerpt(); ?>
+
+
+
+
+	<?php } ?>
+
 		
-		<div class="row">
-			<div class="col-sm">
-				<img src="<?php bloginfo('template_url'); ?>/nina2.png" width="400px">
-				<h3><a href="#">Su audición</a></h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div class="col-sm">
-			<div>
-				<img src="<?php bloginfo('template_url'); ?>/nina1.jpg" width="400px">
-				<h3><a href="#">Su participación en NIZI Project</a></h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			<div class="col-sm">
-				<img src="<?php bloginfo('template_url'); ?>/ninaniziu.jpg" width="400px">
-				<h3><a href="#">Con su girl group debut</a></h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-		</div>		
 		
 	</section>
 	<footer class="container">
