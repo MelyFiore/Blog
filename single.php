@@ -7,24 +7,25 @@
 <body>
 	<header>
 		<center>
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-		  	<img src="nina.jpg" width="100px">
-
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			    <ul class="navbar-nav mr-auto">
-			      <li class="nav-item">
-			        <a class="nav-link" href="index.html">Inicio</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Fotos</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Videos</a>
-			      </li>
-			    </ul>
+			<div class="row">
+			<div class="col-sm-2">
+				<img src="nina.jpg" width="100px">
 			</div>
-		</nav>
+
+			<div class="col-sm-10">
+				<ul class="menu">			    
+					<li >
+					  	<a href="index.php">Inicio</a>
+					</li>
+				    <li>
+				    	<a href="#">Fotos</a>
+				    </li>
+				    <li>
+				       <a href="#">Videos</a>
+				    </li>
+				</ul>
+			</div>
+		</div>
 		</center>
 	</header>
 	<section class="container">
