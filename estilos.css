@@ -64,3 +64,21 @@ section {
 	text-align: center;
 	background: #807B74;
 }
+
+.detalles {
+	text-align: center;
+}
+
+.detalles img {
+	margin-top: 20px;
+}
+
+h1 {
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+li {
+	display: block;
+}

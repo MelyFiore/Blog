@@ -5,5 +5,8 @@
 		        <i class="fa fa-twitter-square" aria-hidden="true"></i>
     		</ul>
 	</footer>
+
+	<?php wp_footer(); ?>
+
 </body>
 </html>
